@@ -12,14 +12,17 @@ public class TokenCountKey{
         String token;
 
         // add your code here
-        while(f.hasNext()){
-            token = f.next();
-            count++;
+        // while(f.hasNext()){
+            // token = f.next();
+            // count++;
             
-            if(Character.toUpperCase(token.charAt(0)) == 'S'){
-                countS++;
-            }
-        }
+            // /* could use toUpperCase/LowerCase form the STring
+             // * class, or != 's' || != 'S' in the logical expression
+             // */
+            // if(Character.toUpperCase(token.charAt(0)) == 'S'){
+                // countS++;
+            // }
+        // }
         
 
         System.out.println("Number of tokens: " + count);

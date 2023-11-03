@@ -13,17 +13,17 @@ public class SumOfOddNumbersKey{
 
         // add your code here
         while(s.hasNext()){
-            
+
             int n = s.nextInt();
-            
+
             sum += n % 2 != 0 ? n : 0;
         }// end while
 
         // alternate solution
-        // while(s.hasNext()){
-        // int n = Integer.parseInt(s.next());
-        // sum += n % 2 != 0 ? n : 0;
-        // }// end while
+        while(s.hasNext()){
+            int n = Integer.parseInt(s.next());
+            sum += n % 2 != 0 ? n : 0;
+        }// end while
 
         JOptionPane.showMessageDialog(null, "The sum of odd numbers is " + sum);        
     }
